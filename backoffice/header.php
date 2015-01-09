@@ -49,7 +49,7 @@ $header .= '<div class="rowHeader">';
 //    $header .= '<h1 class="mainTitle">Bienvenue sur Blabla.</h1>';
     $header .= '<h2 class="tagline"><code class="logoCode">< </code>Développeur web orienté objet<code class="logoCode"> /></code></h2>';
     $header .= '<div class="talents">';
-        $header .= '<h2 class="talentsDetail">PHP Objet / MySql / Javascript / Ajax<br/>JQuery / Zend Framework</h2>';
+        $header .= '<h2 class="talentsDetail">PHP Objet / MySql / Javascript / Ajax<br/>JQuery / Symfony2 / Zend Framework</h2>';
 //        $header .= '<h2 class="talentsDetail">JQuery / Zend Framework</h2>';
     $header .= '</div>';
 $header .= '</div>';

@@ -68,7 +68,7 @@ class Newsmod
     
     public function listNews(){
         $db = Db::getInstance();
-        $req = $db->query("SELECT * FROM news");
+        $req = $db->query("SELECT * FROM news ORDER BY dateAjout DESC");
         $row = $req->fetchAll(PDO::FETCH_ASSOC);
         return $row;
     }

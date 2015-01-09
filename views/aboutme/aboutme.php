@@ -10,7 +10,7 @@ ob_start();
         <p>Graphiste 3D indépendant de 2003 à 2013</p>
         <p>Développeur Web Orienté Objet en 2014, issu d'une formation à l'institut IFOCOP</p>
     </div>
-    <p class="skills">Mes compétences couvrent les domaines suivants :<br/> HTML5/CSS3, Javascript/Ajax, JQuery, PHP Objet/MySql, l'architecture MVC, Zend Framework ainsi que les principaux CMS (Drupal, Thélia, Wordpress) et des connaissances sur Symfony 2. </p>
+    <p class="skills">Mes compétences couvrent les domaines suivants :<br/> HTML5/CSS3, Javascript/Ajax, JQuery, PHP Objet/MySql, l'architecture MVC, Symfony 2, Zend Framework ainsi que les principaux CMS (Drupal, Thélia, Wordpress). </p>
     <div class="row rowSkills">
         <div class="col-sm-4">
             <img src="assets/images/logo_php.jpg" alt="PHP"/>
