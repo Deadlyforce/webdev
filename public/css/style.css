@@ -1,0 +1,471 @@
+/*----------------------------------------------Polices spéciales--------------------------------------------------------*/
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/RobotoCondensed-Regular-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/Roboto-Bold-webfont.eot');
+    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/Roboto-Thin-webfont.eot');
+    src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-------------------------------- PRINCIPAL ----------------------------------*/
+
+.btn, .form-control, .alert{
+    border-radius: 0;
+}
+
+.btnEdit{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+.btnEdit2{
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 1em;
+    padding: 5px 10px 5px 10px;
+}
+
+/*-------------------------------- FORMULAIRES --------------------------------*/
+
+.forms{
+    padding: 40px 0 40px 0;
+}
+
+#contenu, #message{
+    height: 150px;
+}
+
+
+/*---------------------------------- BODY -------------------------------------*/
+
+body{
+    
+    font-family: 'robotolight', verdana, sans-serif;
+    color: #e5e5e5;
+    background: #585858;
+}
+
+.superContainer{    
+    padding-bottom: 200px; 
+    position: relative;
+    min-height: 100%;
+    z-index: 3;
+}
+
+#divPic01{
+    background: url(../images/topPic_01_sharp.jpg) no-repeat center top;    
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#divPic02{
+    background: url(../images/topPic_01_blur.jpg) no-repeat center top;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.rowHeader{    
+    padding-top: 90px;
+    height: 640px;
+    position: relative;
+}
+
+
+/*----------------------------- MENU ------------------------------------------*/
+
+.myLogo{
+    line-height: 50px;    
+}
+
+a.myLogo{
+    color: #000;
+    font-family: 'robotolight', verdana, sans-serif;
+    font-size: 2.8em;
+    background: #fff;    
+    padding: 0 20px;
+}
+
+a.myLogo:hover{
+    color: #fff;
+    font-family: 'robotolight', verdana, sans-serif;
+    font-size: 2.8em;
+    background: #000;
+}
+
+ul.menu{
+    font-size: 1.1em;
+}
+
+ul.menu li a{
+    color: #e5e5e5;
+}
+
+ul.menu li a:hover{    
+    color: #000;
+    
+}
+
+.navbar-nav > li > a{
+     background: #000;
+     
+    -moz-transition-property: background;
+    -moz-transition-duration: 0.2s;
+    -moz-transition-timing-function: ease-out;
+
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: 0.2s;
+    -ms-transition-timing-function: ease-out;
+}
+
+.navbar-nav > li > a:hover{
+     background: #fff;
+}
+
+h2.tagline{
+    color: #fff;
+    font-family: 'robotomedium', verdana, sans-serif;
+    font-size: 1.5em;
+    padding: 0;
+    position: absolute;
+    top: 130px;
+    left: 120px;
+}
+
+.logoCode{
+    color: #fff;
+    font-family: 'robotomedium', verdana, sans-serif;
+    padding: 0;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.talents{
+    margin-top: 130px;
+    padding: 5px 0 15px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    
+}
+
+h2.talentsDetail{
+    font-family: 'robotothin', verdana, sans-serif;
+    padding: 0 0 0 0;
+    /*line-height: 1em;*/
+    font-size: 4em;
+    text-shadow: 0.05em 0.05em 0.05em #333;
+    line-height: 1.2em;
+}
+
+/*-------------------------- SOUS MENU ----------------------------------------*/
+
+ul.subMenu{
+    display:none;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+ul.subMenu li{
+    margin: 0;      
+}
+
+ul.subMenu li a{
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    margin: 0; 
+    width: 135px;
+    display: block;
+}
+
+ul.subMenu li a:hover{
+    background: #fff;
+}
+
+ul.nav li:hover ul.subMenu{
+    display: block;
+    z-index: 4;
+}
+
+/*--------------------------BANDEAU SOUS TITRES -------------------------------*/
+
+.subtitle{
+    height: 0px;
+    background: url('../images/subtitle_degrade.jpg') repeat-x left top, #fff;
+}
+
+.subtitle p{
+    text-align: center;
+    color: #333;
+    padding: 15px 0 0 0;
+    font-size: 3.5em;
+}
+
+.subtitleCode{
+    color: #000;
+    font-family: 'robotothin', verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+
+/*------------------------------- ACCUEIL -------------------------------------*/
+
+.sectionLarge{
+    background: url('../images/backg_section.jpg') no-repeat left top;
+}
+
+section{
+    padding: 30px 0 100px 0;
+    margin: 0;   
+}
+
+.blocNews{
+    margin: 0 0 30px 0;
+    padding: 40px 35px 40px 35px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+span.date{
+    color: #000;
+    background: #fff;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.2em;
+}
+
+span.titre{
+    font-family: 'robotomedium', verdana, sans-serif;
+    padding: 0 0 0 20px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+p.contenu{
+    margin: 25px 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 1.2em;
+}
+
+p.auteur{
+    margin: 0 0 0 135px;
+    padding: 0;
+}
+
+/*------------------------------- GALLERIES ------------------------------------*/
+
+.preview{
+    border: 1px solid #333;
+}
+
+.preview:hover{
+    border: 1px solid white;
+}
+
+
+a#kiidline{
+    display: block;
+    height: 230px;  
+    background: url('../../assets/images/kiidline_bw.jpg') no-repeat left top;
+}
+
+a#kiidline:hover{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/kiidline.jpg') no-repeat left top;
+}
+
+a#lokisalle{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/lokisalle_bw.jpg') no-repeat left top;
+}
+
+a#lokisalle:hover{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/lokisalle.jpg') no-repeat left top;
+}
+
+a#perso3D_01{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/3D_perso_01_bw.jpg') no-repeat left top;
+}
+
+a#perso3D_01:hover{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/3D_perso_01.jpg') no-repeat left top;
+}
+
+a#perso3D_02{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/3D_perso_02_bw.jpg') no-repeat left top;
+}
+
+a#perso3D_02:hover{
+    display: block;
+    height: 230px;
+    background: url('../../assets/images/3D_perso_02.jpg') no-repeat left top;
+}
+
+.rowGallery{
+    margin: 30px 0 50px 0;
+}
+
+.previewText{
+    text-align: center;
+    /*background: #4d687d;*/
+    background: #000;
+    padding: 15px 0 15px 0;
+    font-size: 1.2em;
+}
+
+
+/*-------------------------------- FOOTER -------------------------------------*/
+
+.rowFooter{
+    padding-top: 20px;
+}
+
+footer{
+    border-top: 1px solid #333;
+    background: #585858;
+    padding : 60px 0 70px 0;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#copyright{
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.btnContact{
+    font-size: 1.4em;
+}
+
+
+/*-------------------------------- A PROPOS -------------------------------------*/
+
+.aboutmeDiv{
+    margin-top: 25px;
+}
+
+.cursus p{
+    font-size: 1.4em;
+    font-family: 'robotoregular', verdana, sans-serif;
+}
+
+p.skills{
+    margin-bottom: 50px;
+    font-size: 1.4em;
+}
+
+.rowSkills{
+    margin-bottom: 25px;
+}
+
+.rowSkills img{
+    width: 200px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
